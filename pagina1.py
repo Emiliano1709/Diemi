@@ -13,5 +13,6 @@ st.set_page_config(
     layout="wide"
 )
 
+st.markdown("## ESTO ES SÓLO UNA PRUEBA. NO ES LA INVITACIÓN REAL")
 st.audio("luces.mp3", format="audio/mpeg", loop=True, autoplay=False)
 st.image("invitacion.png", caption="prueba 1")
