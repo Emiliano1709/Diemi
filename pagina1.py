@@ -24,10 +24,10 @@ st.set_page_config(
     layout="wide",
     page_icon = "💍"
 )
-dotenv_path = find_dotenv()
-load_dotenv(dotenv_path, override=True)
-GOOGLE_MAPS_API_KEY = os.getenv("DIEMI_MAPS_API_KEY")
-
+#dotenv_path = find_dotenv()
+#load_dotenv(dotenv_path, override=True)
+#GOOGLE_MAPS_API_KEY = os.getenv("DIEMI_MAPS_API_KEY")
+GOOGLE_MAPS_API_KEY = st.secrets["DIEMI_MAPS_API_KEY"]
 #----------------------- Interfaz -------------------------
 st.markdown("## ESTO ES SÓLO UNA PRUEBA. NO ES LA INVITACIÓN REAL")
 st.audio("luces.mp3", format = "audio/mpeg", loop = True, autoplay = True)
