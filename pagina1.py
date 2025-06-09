@@ -12,7 +12,7 @@ import os
 import codecs
 import streamlit as st
 from streamlit.components.v1 import html
-from dotenv import load_dotenv, find_dotenv
+#from dotenv import load_dotenv, find_dotenv
 
 #---------------------- Estructuras -----------------------
 
